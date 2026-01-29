@@ -8,7 +8,7 @@ new Worker(
   async job => {
     const { title, time } = job.data;
 
-    console.log(`🔔 Reminder Triggered: ${title} at ${time}`);
+    console.log(`Reminder Triggered: ${title} at ${time}`);
     // email / notification logic here
   },
   { connection }
